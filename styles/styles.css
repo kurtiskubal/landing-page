@@ -48,3 +48,10 @@ ul
     justify-content: space-between;
     gap: 20px;
 }
+
+.left-header-content h2
+{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
