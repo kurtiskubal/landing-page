@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * 
 {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Roboto', sans-serif;
 }
+
 body
 {
     display: flex;
@@ -14,7 +17,12 @@ body
     background-color: #1F2937;
 }
 
-.sec1-bg, .sec2-bg, .sec3-bg
+.sec2-bg
+{
+    background-color: #E5E7EB;
+}
+
+.sec1-bg, .sec3-bg
 {
     background-color: white;
 }
@@ -24,17 +32,52 @@ ul
     list-style: none;
 }
 
+ul li img
+{
+    width: 180px;
+    height: 180px;
+}
+
+.signup
+{
+    border: 2px solid white;
+}
+
+button
+{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .header
 {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 50px;
+    padding-bottom: 140px;
 }
 
 .header, .sec1, .sec2, .sec3, .footer
 {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.sec2
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .navigation
@@ -68,12 +111,76 @@ ul
 .navigation h4
 {
     color: white;
+    font-size: 24px;
 }
 
 .header-content
 {
     display: flex;
-    gap: 20px;
+    gap: 200px;
+    justify-content: space-around;
+}
+
+.sec1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.sec1 h3
+{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.sec1 ul
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
+
+}
+
+.sec1 ul li
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  } 
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.signature {
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.sec3-box {
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    
 }
 
 
